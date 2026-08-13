@@ -93,6 +93,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
+        "hole_near_hole": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -522,11 +523,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Output/",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -661,7 +665,7 @@
         "uuid": "059eca76-d49e-401a-ba33-b4d12a7e52f5"
       }
     ],
-    "used_designators": "J1-26",
+    "used_designators": "J1-26,H1-3",
     "variants": []
   },
   "sheets": [
